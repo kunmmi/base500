@@ -20,11 +20,11 @@
 
     <!-- End of headStart -->
     <meta name="viewport" content="width=1440">
-    <meta name="generator" content="Framer 9aabefb">
+    <meta name="generator" content="Framer 3406f4c">
     <title>BASE 500</title>
     <meta name="description" content>
-    <meta name="framer-search-index" content="https://framerusercontent.com/sites/2ULS8FNUD1Y0zMwL55UBqN/searchIndex-s44FNu6uA5IO.json">
-    <meta name="framer-search-index-fallback" content="https://framerusercontent.com/sites/2ULS8FNUD1Y0zMwL55UBqN/searchIndex-zAoxO2x8DYQC.json">
+    <meta name="framer-search-index" content="https://framerusercontent.com/sites/2ULS8FNUD1Y0zMwL55UBqN/searchIndex-FfhXqcDOavw3.json">
+    <meta name="framer-search-index-fallback" content="https://framerusercontent.com/sites/2ULS8FNUD1Y0zMwL55UBqN/searchIndex-s44FNu6uA5IO.json">
     <link href="https://framerusercontent.com/images/nY5AnyFxYOhG7HZO4rIOtIByLFw.png" rel="icon" media="(prefers-color-scheme: light)">
     <link href="https://framerusercontent.com/images/nY5AnyFxYOhG7HZO4rIOtIByLFw.png" rel="icon" media="(prefers-color-scheme: dark)">
     <!-- Open Graph / Facebook -->
@@ -274,7 +274,7 @@
     <meta name="robots" content="max-image-preview:large">
     <link rel="canonical" href="https://best-handbook-528516.framer.app/">
     <meta property="og:url" content="https://best-handbook-528516.framer.app/">
-    <style data-framer-css-ssr-minified data-framer-components="framer-lib-cursors-host framer-Od67z">
+    <style data-framer-css-ssr-minified data-framer-components="framer-lib-cursors-host framer-q4StR">
         html,
         body,
         #main {
@@ -471,6 +471,14 @@
             --text-decoration: var(--framer-link-current-text-decoration-style, var(--framer-link-text-decoration-style, var(--framer-text-decoration-style, solid)))var(--framer-link-current-text-decoration, var(--framer-link-text-decoration, var(--framer-text-decoration, none)))var(--framer-link-current-text-decoration-color, var(--framer-link-text-decoration-color, var(--framer-text-decoration-color, currentcolor)))var(--framer-link-current-text-decoration-thickness, var(--framer-link-text-decoration-thickness, var(--framer-text-decoration-thickness, auto)));
             --text-decoration-skip-ink: var(--framer-link-current-text-decoration-skip-ink, var(--framer-link-text-decoration-skip-ink, var(--framer-text-decoration-skip-ink)));
             --text-underline-offset: var(--framer-link-current-text-decoration-offset, var(--framer-link-text-decoration-offset, var(--framer-text-decoration-offset)))
+        }
+
+        [data-framer-component-type=RichTextContainer] {
+            outline: none;
+            flex-direction: column;
+            flex-shrink: 0;
+            justify-content: flex-start;
+            display: flex
         }
 
         p.framer-text,
@@ -1334,6 +1342,47 @@
             pointer-events: auto !important
         }
 
+        @supports (background:-webkit-named-image(i)) and (not (contain-intrinsic-size:inherit)) {
+            div.framer-text,
+            p.framer-text,
+            h1.framer-text,
+            h2.framer-text,
+            h3.framer-text,
+            h4.framer-text,
+            h5.framer-text,
+            h6.framer-text,
+            ol.framer-text,
+            ul.framer-text,
+            li.framer-text,
+            blockquote.framer-text,
+            .framer-text.framer-image {
+                display: var(--text-truncation-display-inline-for-safari-16, revert)
+            }
+            div.framer-text:after,
+            p.framer-text:after,
+            h1.framer-text:after,
+            h2.framer-text:after,
+            h3.framer-text:after,
+            h4.framer-text:after,
+            h5.framer-text:after,
+            h6.framer-text:after,
+            ol.framer-text:after,
+            ul.framer-text:after,
+            li.framer-text:after,
+            blockquote.framer-text:after,
+            .framer-text.framer-image:after {
+                content: var(--text-truncation-line-break-for-safari-16);
+                white-space: pre
+            }
+            .framer-text.framer-text-module,
+            .framer-text.framer-table-wrapper {
+                display: var(--text-truncation-display-none-for-safari-16, revert)
+            }
+            p.framer-text[data-text-fill] {
+                display: var(--text-truncation-display-inline-for-safari-16, inline-block)
+            }
+        }
+
         .framer-cursor-none,
         .framer-cursor-none * {
             cursor: none !important
@@ -1350,12 +1399,12 @@
             }
         }
 
-        .framer-Od67z.framer-lux5qc,
-        .framer-Od67z .framer-lux5qc {
+        .framer-q4StR.framer-lux5qc,
+        .framer-q4StR .framer-lux5qc {
             display: block
         }
 
-        .framer-Od67z.framer-72rtr7 {
+        .framer-q4StR.framer-72rtr7 {
             background-color: #000;
             width: 1440px;
             height: 4642px;
@@ -1363,7 +1412,7 @@
             overflow: hidden
         }
 
-        .framer-Od67z .framer-8rxfix-container {
+        .framer-q4StR .framer-8rxfix-container {
             flex: none;
             height: 1177px;
             position: absolute;
@@ -1372,7 +1421,7 @@
             right: 0
         }
 
-        .framer-Od67z .framer-inrwxd-container {
+        .framer-q4StR .framer-inrwxd-container {
             flex: none;
             height: 1839px;
             position: absolute;
@@ -1381,7 +1430,7 @@
             right: -80px
         }
 
-        .framer-Od67z .framer-1d488p6 {
+        .framer-q4StR .framer-1d488p6 {
             flex: none;
             width: 627px;
             height: 530px;
@@ -1391,7 +1440,7 @@
             overflow: hidden
         }
 
-        .framer-Od67z .framer-3guqyx {
+        .framer-q4StR .framer-3guqyx {
             --framer-link-text-color: #09f;
             --framer-link-text-decoration: underline;
             white-space: pre;
@@ -1404,7 +1453,7 @@
             transform: translate(-50%)
         }
 
-        .framer-Od67z .framer-1xxh1ys {
+        .framer-q4StR .framer-1xxh1ys {
             --framer-link-text-color: #09f;
             --framer-link-text-decoration: underline;
             white-space: pre;
@@ -1417,7 +1466,7 @@
             left: 89px
         }
 
-        .framer-Od67z .framer-hqc996 {
+        .framer-q4StR .framer-hqc996 {
             --framer-link-text-color: #09f;
             --framer-link-text-decoration: underline;
             white-space: pre;
@@ -1430,7 +1479,7 @@
             left: 9px
         }
 
-        .framer-Od67z .framer-ahnqpi {
+        .framer-q4StR .framer-ahnqpi {
             flex-flow: row;
             flex: none;
             place-content: center;
@@ -1446,7 +1495,7 @@
             overflow: hidden
         }
 
-        .framer-Od67z .framer-13snxay {
+        .framer-q4StR .framer-13snxay {
             --border-bottom-width: 3px;
             --border-color: #000;
             --border-left-width: 3px;
@@ -1471,11 +1520,11 @@
             box-shadow: 2px 3px #000
         }
 
-        .framer-Od67z .framer-1rm6290,
-        .framer-Od67z .framer-1lbklcf,
-        .framer-Od67z .framer-qmej4n,
-        .framer-Od67z .framer-19njkoo,
-        .framer-Od67z .framer-es5h34 {
+        .framer-q4StR .framer-1rm6290,
+        .framer-q4StR .framer-1lbklcf,
+        .framer-q4StR .framer-qmej4n,
+        .framer-q4StR .framer-19njkoo,
+        .framer-q4StR .framer-es5h34 {
             --framer-paragraph-spacing: 0px;
             white-space: pre;
             flex: none;
@@ -1484,7 +1533,7 @@
             position: relative
         }
 
-        .framer-Od67z .framer-18dwkf8 {
+        .framer-q4StR .framer-18dwkf8 {
             --border-bottom-width: 3px;
             --border-color: #000;
             --border-left-width: 3px;
@@ -1509,7 +1558,7 @@
             box-shadow: 2px 3px #000
         }
 
-        .framer-Od67z .framer-btd5et {
+        .framer-q4StR .framer-btd5et {
             background-color: #36222200;
             flex-flow: row;
             flex: none;
@@ -1525,7 +1574,7 @@
             overflow: visible
         }
 
-        .framer-Od67z .framer-b1ggdz {
+        .framer-q4StR .framer-b1ggdz {
             --framer-paragraph-spacing: 0px;
             white-space: pre;
             will-change: var(--framer-will-change-effect-override, transform);
@@ -1535,7 +1584,7 @@
             position: relative
         }
 
-        .framer-Od67z .framer-lfjsm3 {
+        .framer-q4StR .framer-lfjsm3 {
             --border-bottom-width: 3px;
             --border-color: #000;
             --border-left-width: 3px;
@@ -1559,7 +1608,7 @@
             box-shadow: 2px 3px #000
         }
 
-        .framer-Od67z .framer-19fs9kp {
+        .framer-q4StR .framer-19fs9kp {
             flex-flow: column;
             flex: none;
             place-content: center;
@@ -1574,7 +1623,7 @@
             overflow: hidden
         }
 
-        .framer-Od67z .framer-q4atln {
+        .framer-q4StR .framer-q4atln {
             flex-flow: row;
             flex: none;
             place-content: center;
@@ -1588,7 +1637,7 @@
             overflow: hidden
         }
 
-        .framer-Od67z .framer-10miuul {
+        .framer-q4StR .framer-10miuul {
             flex-flow: row;
             flex: none;
             place-content: center;
@@ -1602,7 +1651,7 @@
             overflow: hidden
         }
 
-        .framer-Od67z .framer-1yvqz3x {
+        .framer-q4StR .framer-1yvqz3x {
             --border-bottom-width: 3px;
             --border-color: #000;
             --border-left-width: 3px;
@@ -1623,7 +1672,7 @@
             box-shadow: 2px 1px #000
         }
 
-        .framer-Od67z .framer-hbvc9i {
+        .framer-q4StR .framer-hbvc9i {
             flex: none;
             width: 40px;
             height: 40px;
@@ -1632,8 +1681,8 @@
             left: calc(50% - 20px)
         }
 
-        .framer-Od67z .framer-1hog11t,
-        .framer-Od67z .framer-e3gny7 {
+        .framer-q4StR .framer-1hog11t,
+        .framer-q4StR .framer-e3gny7 {
             --border-bottom-width: 3px;
             --border-color: #000;
             --border-left-width: 3px;
@@ -1653,7 +1702,7 @@
             box-shadow: 2px 1px #000
         }
 
-        .framer-Od67z .framer-8m0e5h {
+        .framer-q4StR .framer-8m0e5h {
             flex: none;
             width: 30px;
             height: 37px;
@@ -1662,7 +1711,7 @@
             left: calc(51.5625% - 15px)
         }
 
-        .framer-Od67z .framer-uiipqq {
+        .framer-q4StR .framer-uiipqq {
             aspect-ratio: 1;
             height: var(--framer-aspect-ratio-supported, 37px);
             flex: none;
@@ -1673,7 +1722,7 @@
             transform: translate(-50%, -50%)
         }
 
-        .framer-Od67z .framer-ha33yc {
+        .framer-q4StR .framer-ha33yc {
             --border-bottom-width: 4px;
             --border-color: #000;
             --border-left-width: 0px;
@@ -1690,7 +1739,7 @@
             overflow: hidden
         }
 
-        .framer-Od67z .framer-12cee37-container {
+        .framer-q4StR .framer-12cee37-container {
             flex: none;
             height: 56px;
             position: absolute;
@@ -1699,8 +1748,8 @@
             right: 0
         }
 
-        .framer-Od67z .framer-1ysujom,
-        .framer-Od67z .framer-1mtdz95 {
+        .framer-q4StR .framer-1ysujom,
+        .framer-q4StR .framer-1mtdz95 {
             flex-flow: column;
             place-content: center;
             align-items: center;
@@ -1713,19 +1762,19 @@
             overflow: hidden
         }
 
-        .framer-Od67z .framer-zy287q,
-        .framer-Od67z .framer-190w2lt,
-        .framer-Od67z .framer-bupikm,
-        .framer-Od67z .framer-17o14fr,
-        .framer-Od67z .framer-lt0idw,
-        .framer-Od67z .framer-1ee5lke,
-        .framer-Od67z .framer-1o7mz96,
-        .framer-Od67z .framer-1h3n1u1,
-        .framer-Od67z .framer-fz9291,
-        .framer-Od67z .framer-12etz3l,
-        .framer-Od67z .framer-3w4o1k,
-        .framer-Od67z .framer-1mxe4pe,
-        .framer-Od67z .framer-rd6yb1 {
+        .framer-q4StR .framer-zy287q,
+        .framer-q4StR .framer-190w2lt,
+        .framer-q4StR .framer-bupikm,
+        .framer-q4StR .framer-17o14fr,
+        .framer-q4StR .framer-lt0idw,
+        .framer-q4StR .framer-1ee5lke,
+        .framer-q4StR .framer-1o7mz96,
+        .framer-q4StR .framer-1h3n1u1,
+        .framer-q4StR .framer-fz9291,
+        .framer-q4StR .framer-12etz3l,
+        .framer-q4StR .framer-3w4o1k,
+        .framer-q4StR .framer-1mxe4pe,
+        .framer-q4StR .framer-rd6yb1 {
             --framer-link-text-color: #09f;
             --framer-link-text-decoration: underline;
             white-space: pre;
@@ -1735,7 +1784,7 @@
             position: relative
         }
 
-        .framer-Od67z .framer-11i9j2x {
+        .framer-q4StR .framer-11i9j2x {
             --border-bottom-width: 5px;
             --border-color: #0052fe;
             --border-left-width: 5px;
@@ -1753,13 +1802,13 @@
             overflow: hidden
         }
 
-        .framer-Od67z .framer-1twmk2e-container {
+        .framer-q4StR .framer-1twmk2e-container {
             flex: none;
             position: absolute;
             inset: 0
         }
 
-        .framer-Od67z .framer-25v1f {
+        .framer-q4StR .framer-25v1f {
             --framer-link-text-color: #09f;
             --framer-link-text-decoration: underline;
             white-space: pre;
@@ -1772,7 +1821,7 @@
             transform: translate(-50%)
         }
 
-        .framer-Od67z .framer-1aduaco {
+        .framer-q4StR .framer-1aduaco {
             background-color: #0052fe;
             flex: none;
             height: 100px;
@@ -1783,7 +1832,7 @@
             overflow: hidden
         }
 
-        .framer-Od67z .framer-5agb5v {
+        .framer-q4StR .framer-5agb5v {
             --framer-link-text-color: #09f;
             --framer-link-text-decoration: underline;
             white-space: pre;
@@ -1796,7 +1845,7 @@
             transform: translateY(-50%)
         }
 
-        .framer-Od67z .framer-1mseucx {
+        .framer-q4StR .framer-1mseucx {
             --framer-link-text-color: #09f;
             --framer-link-text-decoration: underline;
             white-space: pre;
@@ -1809,7 +1858,7 @@
             transform: translateY(-50%)
         }
 
-        .framer-Od67z .framer-1k2lzkb {
+        .framer-q4StR .framer-1k2lzkb {
             filter: blur(44px);
             background-color: #000;
             flex: none;
@@ -1821,7 +1870,7 @@
             overflow: hidden
         }
 
-        .framer-Od67z .framer-b9gr6r {
+        .framer-q4StR .framer-b9gr6r {
             flex: none;
             width: 1366px;
             height: 630px;
@@ -1831,7 +1880,7 @@
             overflow: hidden
         }
 
-        .framer-Od67z .framer-o2e6nu {
+        .framer-q4StR .framer-o2e6nu {
             --framer-link-text-color: #09f;
             --framer-link-text-decoration: underline;
             white-space: pre;
@@ -1844,7 +1893,7 @@
             transform: translate(-50%)
         }
 
-        .framer-Od67z .framer-hpraeu {
+        .framer-q4StR .framer-hpraeu {
             flex-flow: column;
             flex: none;
             place-content: center;
@@ -1861,7 +1910,7 @@
             transform: translate(-50%)
         }
 
-        .framer-Od67z .framer-2m9pql {
+        .framer-q4StR .framer-2m9pql {
             flex-flow: row;
             flex: none;
             place-content: center flex-start;
@@ -1875,7 +1924,7 @@
             overflow: hidden
         }
 
-        .framer-Od67z .framer-1dbismm {
+        .framer-q4StR .framer-1dbismm {
             --border-bottom-width: 3px;
             --border-color: #0051fe;
             --border-left-width: 3px;
@@ -1899,7 +1948,7 @@
             box-shadow: 4px 3px #000
         }
 
-        .framer-Od67z .framer-1ewvcgy {
+        .framer-q4StR .framer-1ewvcgy {
             --border-bottom-width: 3px;
             --border-color: #0051fe;
             --border-left-width: 3px;
@@ -1922,7 +1971,7 @@
             box-shadow: 4px 3px #000
         }
 
-        .framer-Od67z .framer-7ivxmp {
+        .framer-q4StR .framer-7ivxmp {
             flex-flow: row;
             flex: none;
             place-content: center;
@@ -1936,7 +1985,7 @@
             overflow: hidden
         }
 
-        .framer-Od67z .framer-6oes97 {
+        .framer-q4StR .framer-6oes97 {
             --border-bottom-width: 3px;
             --border-color: #0051fe;
             --border-left-width: 3px;
@@ -1960,7 +2009,7 @@
             box-shadow: 4px 3px #000
         }
 
-        .framer-Od67z .framer-69vnni {
+        .framer-q4StR .framer-69vnni {
             --border-bottom-width: 3px;
             --border-color: #0051fe;
             --border-left-width: 3px;
@@ -1984,7 +2033,7 @@
             box-shadow: 4px 3px #000
         }
 
-        .framer-Od67z .framer-1tskkiv {
+        .framer-q4StR .framer-1tskkiv {
             --border-bottom-width: 3px;
             --border-color: #0051fe;
             --border-left-width: 3px;
@@ -2008,7 +2057,7 @@
             box-shadow: 4px 3px #000
         }
 
-        .framer-Od67z .framer-1pyw15j {
+        .framer-q4StR .framer-1pyw15j {
             --border-bottom-width: 5px;
             --border-color: #000;
             --border-left-width: 5px;
@@ -2029,7 +2078,7 @@
             box-shadow: 4px 3px #000
         }
 
-        .framer-Od67z .framer-djyup {
+        .framer-q4StR .framer-djyup {
             flex-flow: column;
             flex: none;
             place-content: flex-start center;
@@ -2045,7 +2094,7 @@
             overflow: hidden
         }
 
-        .framer-Od67z .framer-ighypi {
+        .framer-q4StR .framer-ighypi {
             --framer-link-text-color: #09f;
             --framer-link-text-decoration: underline;
             white-space: pre-wrap;
@@ -2057,7 +2106,7 @@
             position: relative
         }
 
-        .framer-Od67z .framer-1js2hzm {
+        .framer-q4StR .framer-1js2hzm {
             flex-flow: row;
             flex: none;
             place-content: center;
@@ -2071,7 +2120,7 @@
             overflow: hidden
         }
 
-        .framer-Od67z .framer-bipj5o {
+        .framer-q4StR .framer-bipj5o {
             --border-bottom-width: 5px;
             --border-color: #fff;
             --border-left-width: 5px;
@@ -2095,8 +2144,8 @@
             overflow: hidden
         }
 
-        .framer-Od67z .framer-1em573h,
-        .framer-Od67z .framer-1f2z599 {
+        .framer-q4StR .framer-1em573h,
+        .framer-q4StR .framer-1f2z599 {
             white-space: pre;
             flex: none;
             width: auto;
@@ -2104,7 +2153,7 @@
             position: relative
         }
 
-        .framer-Od67z .framer-13t9t5c {
+        .framer-q4StR .framer-13t9t5c {
             --border-bottom-width: 5px;
             --border-color: #fff;
             --border-left-width: 5px;
@@ -2128,7 +2177,7 @@
             overflow: hidden
         }
 
-        .framer-Od67z .framer-1l21x6t {
+        .framer-q4StR .framer-1l21x6t {
             white-space: pre;
             flex: none;
             width: auto;
@@ -2139,7 +2188,7 @@
             transform: translateY(-50%)
         }
 
-        .framer-Od67z .framer-1pnhxww-container {
+        .framer-q4StR .framer-1pnhxww-container {
             flex: none;
             width: 620px;
             height: 435px;
@@ -2148,7 +2197,7 @@
             left: 700px
         }
 
-        .framer-Od67z .framer-jwv0wc {
+        .framer-q4StR .framer-jwv0wc {
             aspect-ratio: 1;
             height: var(--framer-aspect-ratio-supported, 20px);
             will-change: var(--framer-will-change-override, transform);
@@ -2162,7 +2211,7 @@
             overflow: hidden
         }
 
-        .framer-Od67z .framer-df9w85 {
+        .framer-q4StR .framer-df9w85 {
             aspect-ratio: 1;
             height: var(--framer-aspect-ratio-supported, 20px);
             will-change: var(--framer-will-change-override, transform);
@@ -2176,7 +2225,7 @@
             overflow: hidden
         }
 
-        .framer-Od67z .framer-yum45d {
+        .framer-q4StR .framer-yum45d {
             aspect-ratio: 1;
             height: var(--framer-aspect-ratio-supported, 20px);
             will-change: var(--framer-will-change-override, transform);
@@ -2190,7 +2239,7 @@
             overflow: hidden
         }
 
-        .framer-Od67z .framer-d0pna6 {
+        .framer-q4StR .framer-d0pna6 {
             aspect-ratio: 1;
             height: var(--framer-aspect-ratio-supported, 20px);
             will-change: var(--framer-will-change-override, transform);
@@ -2204,7 +2253,7 @@
             overflow: hidden
         }
 
-        .framer-Od67z .framer-x9nuds {
+        .framer-q4StR .framer-x9nuds {
             --border-bottom-width: 10px;
             --border-color: #000;
             --border-left-width: 10px;
@@ -2224,7 +2273,7 @@
             box-shadow: 6px 6px #000
         }
 
-        .framer-Od67z .framer-1i8ndcf {
+        .framer-q4StR .framer-1i8ndcf {
             --framer-link-text-color: #09f;
             --framer-link-text-decoration: underline;
             white-space: pre-wrap;
@@ -2239,7 +2288,7 @@
             transform: translateY(-50%)
         }
 
-        .framer-Od67z .framer-si4xcs {
+        .framer-q4StR .framer-si4xcs {
             --framer-link-text-color: #09f;
             --framer-link-text-decoration: underline;
             white-space: pre;
@@ -2252,7 +2301,7 @@
             transform: translate(-50%)
         }
 
-        .framer-Od67z .framer-1bdqi9n {
+        .framer-q4StR .framer-1bdqi9n {
             aspect-ratio: 1;
             height: var(--framer-aspect-ratio-supported, 20px);
             will-change: var(--framer-will-change-override, transform);
@@ -2266,7 +2315,7 @@
             overflow: hidden
         }
 
-        .framer-Od67z .framer-3ph8ek {
+        .framer-q4StR .framer-3ph8ek {
             aspect-ratio: 1;
             height: var(--framer-aspect-ratio-supported, 20px);
             will-change: var(--framer-will-change-override, transform);
@@ -2280,7 +2329,7 @@
             overflow: hidden
         }
 
-        .framer-Od67z .framer-s9uuxi {
+        .framer-q4StR .framer-s9uuxi {
             aspect-ratio: 1;
             height: var(--framer-aspect-ratio-supported, 20px);
             will-change: var(--framer-will-change-override, transform);
@@ -2294,7 +2343,7 @@
             overflow: hidden
         }
 
-        .framer-Od67z .framer-1lj60eq {
+        .framer-q4StR .framer-1lj60eq {
             aspect-ratio: 1;
             height: var(--framer-aspect-ratio-supported, 669px);
             flex: none;
@@ -2306,7 +2355,7 @@
             transform: translateY(-50%)
         }
 
-        .framer-Od67z .framer-1f4thcu {
+        .framer-q4StR .framer-1f4thcu {
             aspect-ratio: 1;
             height: var(--framer-aspect-ratio-supported, 20px);
             will-change: var(--framer-will-change-override, transform);
@@ -2320,7 +2369,7 @@
             overflow: hidden
         }
 
-        .framer-Od67z .framer-7qyyni {
+        .framer-q4StR .framer-7qyyni {
             aspect-ratio: 1;
             height: var(--framer-aspect-ratio-supported, 543px);
             flex: none;
@@ -2331,8 +2380,8 @@
             overflow: visible
         }
 
-        .framer-Od67z[data-border=true]:after,
-        .framer-Od67z [data-border=true]:after {
+        .framer-q4StR[data-border=true]:after,
+        .framer-q4StR [data-border=true]:after {
             content: "";
             border-width: var(--border-top-width, 0)var(--border-right-width, 0)var(--border-bottom-width, 0)var(--border-left-width, 0);
             border-color: var(--border-color, none);
@@ -2357,7 +2406,7 @@
     <!-- Start of bodyStart -->
 
     <!-- End of bodyStart -->
-    <div id="main" data-framer-hydrate-v2="{&quot;routeId&quot;:&quot;augiA20Il&quot;,&quot;localeId&quot;:&quot;default&quot;,&quot;breakpoints&quot;:[{&quot;hash&quot;:&quot;72rtr7&quot;}]}" data-framer-ssr-released-at="2025-09-18T10:31:58.865Z" data-framer-page-optimized-at="2025-09-19T18:56:14.211Z"
+    <div id="main" data-framer-hydrate-v2="{&quot;routeId&quot;:&quot;augiA20Il&quot;,&quot;localeId&quot;:&quot;default&quot;,&quot;breakpoints&quot;:[{&quot;hash&quot;:&quot;72rtr7&quot;}]}" data-framer-ssr-released-at="2025-09-22T09:05:50.528Z" data-framer-page-optimized-at="2025-09-22T14:35:37.055Z"
         data-framer-generated-page>
         <!--$-->
         <style data-framer-html-style>
@@ -2365,7 +2414,7 @@
                 background: rgb(0, 0, 0);
             }
         </style>
-        <div data-framer-root class="framer-Od67z framer-72rtr7" style="min-height:100vh;width:auto">
+        <div data-framer-root class="framer-q4StR framer-72rtr7" style="min-height:100vh;width:auto">
             <div class="framer-8rxfix-container">
                 <!--$--><video src="https://framerusercontent.com/assets/NmY4IvtCL42l5lMnpu7XEFsxLzE.mp4" loop preload="none" muted playsinline style="cursor:auto;width:100%;height:100%;border-radius:0px;display:block;object-fit:cover;background-color:rgba(0, 0, 0, 0);object-position:50% 50%"></video>
                 <!--/$-->
@@ -2375,7 +2424,7 @@
                 <!--/$-->
             </div>
             <div class="framer-1d488p6">
-                <div class="framer-3guqyx" style="outline:none;display:flex;flex-direction:column;justify-content:flex-start;flex-shrink:0;transform:translateX(-50%)" data-framer-component-type="RichTextContainer">
+                <div class="framer-3guqyx" style="transform:translateX(-50%)" data-framer-component-type="RichTextContainer">
                     <h1 style="--font-selector:Q1VTVE9NO0NvaW5iYXNlIERpc3BsYXkgQm9sZA==;--framer-font-family:&quot;Coinbase Display Bold&quot;, &quot;Coinbase Display Bold Placeholder&quot;, sans-serif;--framer-font-size:94px;--framer-letter-spacing:-0.04em;--framer-line-height:1em;--framer-text-color:rgb(0, 81, 254)"
                         class="framer-text"><span style="--framer-font-size:150px" class="framer-text"><span style="white-space:nowrap"><span style="display:inline-block;opacity:0.001;filter:blur(10px);transform:translateX(0px) translateY(10px) scale(1) rotate(0deg) skewX(0deg) skewY(0deg)">B</span>
                         <span
@@ -2386,17 +2435,17 @@
                                 </span>
                     </h1>
                 </div>
-                <div class="framer-1xxh1ys" data-framer-appear-id="1xxh1ys" style="outline:none;display:flex;flex-direction:column;justify-content:flex-start;opacity:0.001;flex-shrink:0;transform:translateY(150px)" data-framer-component-type="RichTextContainer">
+                <div class="framer-1xxh1ys" data-framer-appear-id="1xxh1ys" style="opacity:0.001;transform:translateY(150px)" data-framer-component-type="RichTextContainer">
                     <h1 style="--font-selector:R0Y7RnJlZG9rYS02MDA=;--framer-font-family:&quot;Fredoka&quot;, &quot;Fredoka Placeholder&quot;, sans-serif;--framer-font-size:37px;--framer-font-weight:600;--framer-letter-spacing:-0.04em;--framer-line-height:1.1em;--framer-text-color:rgb(255, 255, 255)"
                         class="framer-text">INTRODUCING</h1>
                 </div>
-                <div class="framer-hqc996" data-framer-appear-id="hqc996" style="outline:none;display:flex;flex-direction:column;justify-content:flex-start;opacity:0.001;flex-shrink:0;transform:translateY(150px)" data-framer-component-type="RichTextContainer">
+                <div class="framer-hqc996" data-framer-appear-id="hqc996" style="opacity:0.001;transform:translateY(150px)" data-framer-component-type="RichTextContainer">
                     <p style="--font-selector:R0Y7RnJlZG9rYS1yZWd1bGFy;--framer-font-family:&quot;Fredoka&quot;, &quot;Fredoka Placeholder&quot;, sans-serif;--framer-font-size:30px;--framer-text-color:rgb(255, 255, 255)" class="framer-text">Welcome to the Base World.</p>
                 </div>
                 <div class="framer-ahnqpi">
                     <!--$-->
                     <a class="framer-13snxay framer-lux5qc" data-border="true" data-framer-appear-id="13snxay" data-framer-name="navbar" href="https://app.uniswap.org" target="_blank" rel="noopener" style="opacity:0.001;transform:translateY(-150px)">
-                        <div class="framer-1rm6290" data-framer-name="home" style="outline:none;display:flex;flex-direction:column;justify-content:flex-start;flex-shrink:0;transform:none" data-framer-component-type="RichTextContainer">
+                        <div class="framer-1rm6290" data-framer-name="home" style="transform:none" data-framer-component-type="RichTextContainer">
                             <p style="--font-selector:Q1VTVE9NO0NvaW5iYXNlIERpc3BsYXkgQm9sZA==;--framer-font-family:&quot;Coinbase Display Bold&quot;, &quot;Coinbase Display Bold Placeholder&quot;, sans-serif;--framer-font-size:20px;--framer-text-color:rgb(0, 81, 254);--framer-text-transform:capitalize"
                                 class="framer-text">BUY BASE 500</p>
                         </div>
@@ -2404,7 +2453,7 @@
                     <!--/$-->
                     <!--$-->
                     <a class="framer-18dwkf8 framer-lux5qc" data-border="true" data-framer-appear-id="18dwkf8" data-framer-name="navbar" href="https://basescan.org/" target="_blank" rel="noopener" style="opacity:0.001;transform:translateY(-150px)">
-                        <div class="framer-1lbklcf" data-framer-name="home" style="outline:none;display:flex;flex-direction:column;justify-content:flex-start;flex-shrink:0;transform:none" data-framer-component-type="RichTextContainer">
+                        <div class="framer-1lbklcf" data-framer-name="home" style="transform:none" data-framer-component-type="RichTextContainer">
                             <p style="--font-selector:Q1VTVE9NO0NvaW5iYXNlIERpc3BsYXkgQm9sZA==;--framer-font-family:&quot;Coinbase Display Bold&quot;, &quot;Coinbase Display Bold Placeholder&quot;, sans-serif;--framer-font-size:20px;--framer-text-color:rgb(0, 81, 254);--framer-text-transform:capitalize"
                                 class="framer-text">BASESCAN</p>
                         </div>
@@ -2413,25 +2462,25 @@
                 </div>
             </div>
             <div class="framer-btd5et" data-framer-name="Frame 12">
-                <div class="framer-b1ggdz" data-framer-appear-id="b1ggdz" data-framer-name="SPACES" style="outline:none;display:flex;flex-direction:column;justify-content:flex-start;opacity:0.001;flex-shrink:0;transform:translateX(-150px)" data-framer-component-type="RichTextContainer">
+                <div class="framer-b1ggdz" data-framer-appear-id="b1ggdz" data-framer-name="SPACES" style="opacity:0.001;transform:translateX(-150px)" data-framer-component-type="RichTextContainer">
                     <p style="--font-selector:Q1VTVE9NO0NvaW5iYXNlIERpc3BsYXkgQm9sZA==;--framer-font-family:&quot;Coinbase Display Bold&quot;, &quot;Coinbase Display Bold Placeholder&quot;, sans-serif;--framer-font-size:40px;--framer-text-color:rgb(0, 81, 254)"
                         class="framer-text">BASE 500</p>
                 </div>
                 <div class="framer-lfjsm3" data-border="true" data-framer-appear-id="lfjsm3" data-framer-name="navbar" style="opacity:0.001;transform:translateY(-150px)">
-                    <div class="framer-qmej4n" data-framer-name="home" style="outline:none;display:flex;flex-direction:column;justify-content:flex-start;flex-shrink:0;transform:none" data-framer-component-type="RichTextContainer">
+                    <div class="framer-qmej4n" data-framer-name="home" style="transform:none" data-framer-component-type="RichTextContainer">
                         <p style="--font-selector:Q1VTVE9NO0NvaW5iYXNlIERpc3BsYXkgQm9sZA==;--framer-font-family:&quot;Coinbase Display Bold&quot;, &quot;Coinbase Display Bold Placeholder&quot;, sans-serif;--framer-font-size:20px;--framer-text-color:rgb(255, 252, 252);--framer-text-transform:capitalize"
                             class="framer-text">about</p>
                     </div>
                     <!--$-->
                     <a class="framer-19fs9kp framer-lux5qc" data-framer-name="Tokenomics" href="https://t.me/BASEDSPX" target="_blank" rel="noopener">
-                        <div class="framer-19njkoo" data-framer-name="Tokenomics" style="outline:none;display:flex;flex-direction:column;justify-content:flex-start;flex-shrink:0;transform:none" data-framer-component-type="RichTextContainer">
+                        <div class="framer-19njkoo" data-framer-name="Tokenomics" style="transform:none" data-framer-component-type="RichTextContainer">
                             <p style="--font-selector:Q1VTVE9NO0NvaW5iYXNlIERpc3BsYXkgQm9sZA==;--framer-font-family:&quot;Coinbase Display Bold&quot;, &quot;Coinbase Display Bold Placeholder&quot;, sans-serif;--framer-font-size:20px;--framer-text-color:rgb(255, 252, 252);--framer-text-transform:capitalize"
                                 class="framer-text">Community</p>
                         </div>
                     </a>
                     <!--/$-->
                     <div class="framer-q4atln" data-framer-name="about">
-                        <div class="framer-es5h34" data-framer-name="Learn" style="outline:none;display:flex;flex-direction:column;justify-content:flex-start;flex-shrink:0;transform:none" data-framer-component-type="RichTextContainer">
+                        <div class="framer-es5h34" data-framer-name="Learn" style="transform:none" data-framer-component-type="RichTextContainer">
                             <p style="--font-selector:Q1VTVE9NO0NvaW5iYXNlIERpc3BsYXkgQm9sZA==;--framer-font-family:&quot;Coinbase Display Bold&quot;, &quot;Coinbase Display Bold Placeholder&quot;, sans-serif;--framer-font-size:20px;--framer-text-color:rgb(255, 252, 252);--framer-text-transform:capitalize"
                                 class="framer-text">Token</p>
                         </div>
@@ -2458,7 +2507,7 @@
                         <ul style="display:flex;width:100%;height:100%;max-width:100%;max-height:100%;place-items:center;margin:0;padding:0;list-style-type:none;text-indent:none;gap:43px;position:relative;flex-direction:row;will-change:auto;transform:translateX(-0px)">
                             <li>
                                 <div class="framer-1ysujom" style="flex-shrink:0">
-                                    <div class="framer-zy287q" style="outline:none;display:flex;flex-direction:column;justify-content:flex-start;flex-shrink:0;transform:none" data-framer-component-type="RichTextContainer">
+                                    <div class="framer-zy287q" style="transform:none" data-framer-component-type="RichTextContainer">
                                         <p style="--font-selector:R0Y7RnJlZG9rYS01MDA=;--framer-font-family:&quot;Fredoka&quot;, &quot;Fredoka Placeholder&quot;, sans-serif;--framer-font-size:40px;--framer-font-weight:500;--framer-text-color:rgb(0, 82, 254)"
                                             class="framer-text">BASE500 feels better to be honest - Jesse Pollak.</p>
                                     </div>
@@ -2466,7 +2515,7 @@
                             </li>
                             <li>
                                 <div class="framer-1mtdz95" style="flex-shrink:0">
-                                    <div class="framer-190w2lt" style="outline:none;display:flex;flex-direction:column;justify-content:flex-start;flex-shrink:0;transform:none" data-framer-component-type="RichTextContainer">
+                                    <div class="framer-190w2lt" style="transform:none" data-framer-component-type="RichTextContainer">
                                         <p style="--font-selector:R0Y7RnJlZG9rYS01MDA=;--framer-font-family:&quot;Fredoka&quot;, &quot;Fredoka Placeholder&quot;, sans-serif;--framer-font-size:40px;--framer-font-weight:500;--framer-text-color:rgb(0, 82, 254)"
                                             class="framer-text">It's more than a benchmark, it's a vibe, it's the LORE</p>
                                     </div>
@@ -2508,7 +2557,7 @@
                     <!--/$-->
                 </div>
             </div>
-            <div class="framer-25v1f" style="outline:none;display:flex;flex-direction:column;justify-content:flex-start;flex-shrink:0;transform:translateX(-50%)" data-framer-component-type="RichTextContainer">
+            <div class="framer-25v1f" style="transform:translateX(-50%)" data-framer-component-type="RichTextContainer">
                 <h1 style="--font-selector:Q1VTVE9NO0NvaW5iYXNlIERpc3BsYXkgQm9sZA==;--framer-font-family:&quot;Coinbase Display Bold&quot;, &quot;Coinbase Display Bold Placeholder&quot;, sans-serif;--framer-font-size:82px;--framer-letter-spacing:-0.04em;--framer-line-height:1em;--framer-text-color:rgb(255, 255, 255)"
                     class="framer-text"><span style="white-space:nowrap"><span style="display:inline-block;opacity:0.001;filter:blur(10px);transform:translateX(0px) translateY(10px) scale(1) rotate(0deg) skewX(0deg) skewY(0deg)">T</span><span style="display:inline-block;opacity:0.001;filter:blur(10px);transform:translateX(0px) translateY(10px) scale(1) rotate(0deg) skewX(0deg) skewY(0deg)">O</span>
                     <span
@@ -2519,37 +2568,37 @@
                 </h1>
             </div>
             <div class="framer-1aduaco">
-                <div class="framer-5agb5v" style="outline:none;display:flex;flex-direction:column;justify-content:flex-start;flex-shrink:0;will-change:transform;opacity:0;transform:translateY(-50%) translateX(-150px)" data-framer-component-type="RichTextContainer">
+                <div class="framer-5agb5v" style="will-change:transform;opacity:0;transform:translateY(-50%) translateX(-150px)" data-framer-component-type="RichTextContainer">
                     <p style="--font-selector:R0Y7RnJlZG9rYS03MDA=;--framer-font-family:&quot;Fredoka&quot;, &quot;Fredoka Placeholder&quot;, sans-serif;--framer-font-size:42px;--framer-font-weight:700;--framer-line-height:1.4em;--framer-text-color:rgb(255, 255, 255)"
                         class="framer-text">BASE 500</p>
                 </div>
-                <div class="framer-1mseucx" style="outline:none;display:flex;flex-direction:column;justify-content:flex-start;flex-shrink:0;will-change:transform;opacity:0;transform:translateY(-50%) translateX(150px)" data-framer-component-type="RichTextContainer">
+                <div class="framer-1mseucx" style="will-change:transform;opacity:0;transform:translateY(-50%) translateX(150px)" data-framer-component-type="RichTextContainer">
                     <p style="--font-selector:R0Y7RnJlZG9rYS03MDA=;--framer-font-family:&quot;Fredoka&quot;, &quot;Fredoka Placeholder&quot;, sans-serif;--framer-font-size:24px;--framer-font-weight:700;--framer-line-height:1.4em;--framer-text-color:rgb(255, 255, 255)"
                         class="framer-text">@COPYRIGHT 2025</p>
                 </div>
             </div>
             <div class="framer-1k2lzkb"></div>
             <div class="framer-b9gr6r">
-                <div class="framer-o2e6nu" style="outline:none;display:flex;flex-direction:column;justify-content:flex-start;flex-shrink:0;transform:translateX(-50%)" data-framer-component-type="RichTextContainer">
+                <div class="framer-o2e6nu" style="transform:translateX(-50%)" data-framer-component-type="RichTextContainer">
                     <h1 style="--font-selector:Q1VTVE9NO0NvaW5iYXNlIERpc3BsYXkgQm9sZA==;--framer-font-family:&quot;Coinbase Display Bold&quot;, &quot;Coinbase Display Bold Placeholder&quot;, sans-serif;--framer-font-size:82px;--framer-letter-spacing:-0.04em;--framer-line-height:1em;--framer-text-color:rgb(255, 255, 255)"
                         class="framer-text">TOKENOMICS</h1>
                 </div>
                 <div class="framer-hpraeu" data-framer-name="TOKENOMICS">
                     <div class="framer-2m9pql" style="will-change:transform;opacity:0;transform:translateX(-150px)">
                         <div class="framer-1dbismm" data-border="true">
-                            <div class="framer-bupikm" style="outline:none;display:flex;flex-direction:column;justify-content:flex-start;flex-shrink:0;transform:none" data-framer-component-type="RichTextContainer">
+                            <div class="framer-bupikm" style="transform:none" data-framer-component-type="RichTextContainer">
                                 <p style="--font-selector:R0Y7RnJlZG9rYS1yZWd1bGFy;--framer-font-family:&quot;Fredoka&quot;, &quot;Fredoka Placeholder&quot;, sans-serif;--framer-font-size:24px;--framer-text-color:rgb(255, 255, 255)" class="framer-text">LP</p>
                             </div>
-                            <div class="framer-17o14fr" style="outline:none;display:flex;flex-direction:column;justify-content:flex-start;flex-shrink:0;transform:none" data-framer-component-type="RichTextContainer">
+                            <div class="framer-17o14fr" style="transform:none" data-framer-component-type="RichTextContainer">
                                 <p style="--font-selector:Q1VTVE9NO0NvaW5iYXNlIERpc3BsYXkgQm9sZA==;--framer-font-family:&quot;Coinbase Display Bold&quot;, &quot;Coinbase Display Bold Placeholder&quot;, sans-serif;--framer-font-size:48px;--framer-text-color:rgb(255, 255, 255)"
                                     class="framer-text">BURN</p>
                             </div>
                         </div>
                         <div class="framer-1ewvcgy" data-border="true">
-                            <div class="framer-lt0idw" style="outline:none;display:flex;flex-direction:column;justify-content:flex-start;flex-shrink:0;transform:none" data-framer-component-type="RichTextContainer">
+                            <div class="framer-lt0idw" style="transform:none" data-framer-component-type="RichTextContainer">
                                 <p style="--font-selector:R0Y7RnJlZG9rYS1yZWd1bGFy;--framer-font-family:&quot;Fredoka&quot;, &quot;Fredoka Placeholder&quot;, sans-serif;--framer-font-size:24px;--framer-text-color:rgb(255, 255, 255)" class="framer-text">NETWORK</p>
                             </div>
-                            <div class="framer-1ee5lke" style="outline:none;display:flex;flex-direction:column;justify-content:flex-start;flex-shrink:0;transform:none" data-framer-component-type="RichTextContainer">
+                            <div class="framer-1ee5lke" style="transform:none" data-framer-component-type="RichTextContainer">
                                 <p style="--font-selector:Q1VTVE9NO0NvaW5iYXNlIERpc3BsYXkgQm9sZA==;--framer-font-family:&quot;Coinbase Display Bold&quot;, &quot;Coinbase Display Bold Placeholder&quot;, sans-serif;--framer-font-size:48px;--framer-text-color:rgb(255, 255, 255)"
                                     class="framer-text">BASE</p>
                             </div>
@@ -2557,29 +2606,29 @@
                     </div>
                     <div class="framer-7ivxmp" style="will-change:transform;opacity:0;transform:translateX(150px)">
                         <div class="framer-6oes97" data-border="true">
-                            <div class="framer-1o7mz96" style="outline:none;display:flex;flex-direction:column;justify-content:flex-start;flex-shrink:0;transform:none" data-framer-component-type="RichTextContainer">
+                            <div class="framer-1o7mz96" style="transform:none" data-framer-component-type="RichTextContainer">
                                 <p style="--font-selector:R0Y7RnJlZG9rYS1yZWd1bGFy;--framer-font-family:&quot;Fredoka&quot;, &quot;Fredoka Placeholder&quot;, sans-serif;--framer-font-size:24px;--framer-text-color:rgb(255, 255, 255)" class="framer-text">TAX</p>
                             </div>
-                            <div class="framer-1h3n1u1" style="outline:none;display:flex;flex-direction:column;justify-content:flex-start;flex-shrink:0;transform:none" data-framer-component-type="RichTextContainer">
+                            <div class="framer-1h3n1u1" style="transform:none" data-framer-component-type="RichTextContainer">
                                 <p style="--font-selector:Q1VTVE9NO0NvaW5iYXNlIERpc3BsYXkgQm9sZA==;--framer-font-family:&quot;Coinbase Display Bold&quot;, &quot;Coinbase Display Bold Placeholder&quot;, sans-serif;--framer-font-size:48px;--framer-text-color:rgb(255, 255, 255)"
                                     class="framer-text">NO SHIT TAX</p>
                             </div>
                         </div>
                         <div class="framer-69vnni" data-border="true">
-                            <div class="framer-fz9291" style="outline:none;display:flex;flex-direction:column;justify-content:flex-start;flex-shrink:0;transform:none" data-framer-component-type="RichTextContainer">
+                            <div class="framer-fz9291" style="transform:none" data-framer-component-type="RichTextContainer">
                                 <p style="--font-selector:R0Y7RnJlZG9rYS1yZWd1bGFy;--framer-font-family:&quot;Fredoka&quot;, &quot;Fredoka Placeholder&quot;, sans-serif;--framer-font-size:24px;--framer-text-color:rgb(255, 255, 255)" class="framer-text">TICKER</p>
                             </div>
-                            <div class="framer-12etz3l" style="outline:none;display:flex;flex-direction:column;justify-content:flex-start;flex-shrink:0;transform:none" data-framer-component-type="RichTextContainer">
+                            <div class="framer-12etz3l" style="transform:none" data-framer-component-type="RichTextContainer">
                                 <p style="--font-selector:Q1VTVE9NO0NvaW5iYXNlIERpc3BsYXkgQm9sZA==;--framer-font-family:&quot;Coinbase Display Bold&quot;, &quot;Coinbase Display Bold Placeholder&quot;, sans-serif;--framer-font-size:48px;--framer-text-color:rgb(255, 255, 255)"
                                     class="framer-text">$BASE500</p>
                             </div>
                         </div>
                     </div>
                     <div class="framer-1tskkiv" data-border="true" style="will-change:transform;opacity:0;transform:translateX(-150px)">
-                        <div class="framer-3w4o1k" style="outline:none;display:flex;flex-direction:column;justify-content:flex-start;flex-shrink:0;transform:none" data-framer-component-type="RichTextContainer">
+                        <div class="framer-3w4o1k" style="transform:none" data-framer-component-type="RichTextContainer">
                             <p style="--font-selector:R0Y7RnJlZG9rYS1yZWd1bGFy;--framer-font-family:&quot;Fredoka&quot;, &quot;Fredoka Placeholder&quot;, sans-serif;--framer-font-size:24px;--framer-text-color:rgb(255, 255, 255)" class="framer-text">CONTRACT ADDRESS </p>
                         </div>
-                        <div class="framer-1mxe4pe" style="outline:none;display:flex;flex-direction:column;justify-content:flex-start;flex-shrink:0;transform:none" data-framer-component-type="RichTextContainer">
+                        <div class="framer-1mxe4pe" style="transform:none" data-framer-component-type="RichTextContainer">
                             <p style="--font-selector:Q1VTVE9NO0NvaW5iYXNlIERpc3BsYXkgQm9sZA==;--framer-font-family:&quot;Coinbase Display Bold&quot;, &quot;Coinbase Display Bold Placeholder&quot;, sans-serif;--framer-font-size:48px;--framer-text-color:rgb(255, 255, 255)"
                                 class="framer-text">0x1656d5B9F63eb7502f42bA60119F79aA3Fa5A0c0</p>
                         </div>
@@ -2588,11 +2637,11 @@
             </div>
             <div class="framer-1pyw15j" data-border="true" style="will-change:transform;opacity:0;transform:translateY(150px)">
                 <div class="framer-djyup">
-                    <div class="framer-rd6yb1" style="outline:none;display:flex;flex-direction:column;justify-content:flex-start;flex-shrink:0;transform:none" data-framer-component-type="RichTextContainer">
+                    <div class="framer-rd6yb1" style="transform:none" data-framer-component-type="RichTextContainer">
                         <p style="--font-selector:Q1VTVE9NO0NvaW5iYXNlIERpc3BsYXkgQm9sZA==;--framer-font-family:&quot;Coinbase Display Bold&quot;, &quot;Coinbase Display Bold Placeholder&quot;, sans-serif;--framer-font-size:78px;--framer-text-color:rgb(255, 255, 255)"
                             class="framer-text">JOIN US</p>
                     </div>
-                    <div class="framer-ighypi" style="outline:none;display:flex;flex-direction:column;justify-content:flex-start;flex-shrink:0;transform:none" data-framer-component-type="RichTextContainer">
+                    <div class="framer-ighypi" style="transform:none" data-framer-component-type="RichTextContainer">
                         <p style="--font-selector:R0Y7RnJlZG9rYS1yZWd1bGFy;--framer-font-family:&quot;Fredoka&quot;, &quot;Fredoka Placeholder&quot;, sans-serif;--framer-font-size:28px;--framer-line-height:1.4em;--framer-text-color:rgb(255, 255, 255)" class="framer-text"><span style="white-space:nowrap"><span style="display:inline-block;opacity:0.001;filter:blur(10px);transform:translateX(0px) translateY(10px) scale(1) rotate(0deg) skewX(0deg) skewY(0deg)">B</span><span style="display:inline-block;opacity:0.001;filter:blur(10px);transform:translateX(0px) translateY(10px) scale(1) rotate(0deg) skewX(0deg) skewY(0deg)">e</span>
                             <span
                                 style="display:inline-block;opacity:0.001;filter:blur(10px);transform:translateX(0px) translateY(10px) scale(1) rotate(0deg) skewX(0deg) skewY(0deg)">c</span><span style="display:inline-block;opacity:0.001;filter:blur(10px);transform:translateX(0px) translateY(10px) scale(1) rotate(0deg) skewX(0deg) skewY(0deg)">o</span><span style="display:inline-block;opacity:0.001;filter:blur(10px);transform:translateX(0px) translateY(10px) scale(1) rotate(0deg) skewX(0deg) skewY(0deg)">m</span>
@@ -2693,25 +2742,25 @@
                     <div class="framer-1js2hzm">
                         <!--$-->
                         <a class="framer-bipj5o framer-lux5qc" data-border="true" href="https://t.me/base500MemeticETFindex" target="_blank" rel="noopener" style="will-change:transform;opacity:0;transform:translateX(-150px)">
-                            <div class="framer-1em573h" style="outline:none;display:flex;flex-direction:column;justify-content:flex-start;flex-shrink:0;transform:none" data-framer-component-type="RichTextContainer">
+                            <div class="framer-1em573h" style="transform:none" data-framer-component-type="RichTextContainer">
                                 <p style="--font-selector:R0Y7RnJlZG9rYS03MDA=;--framer-font-family:&quot;Fredoka&quot;, &quot;Fredoka Placeholder&quot;, sans-serif;--framer-font-size:35px;--framer-font-weight:700;--framer-text-color:rgb(0, 82, 254)" class="framer-text">TELEGRAM</p>
                             </div>
                         </a>
                         <!--/$-->
                         <!--$-->
                         <a class="framer-13t9t5c framer-lux5qc" data-border="true" href="https://x.com/Base500Index" target="_blank" rel="noopener" style="will-change:transform;opacity:0;transform:translateX(-150px)">
-                            <div class="framer-1f2z599" style="outline:none;display:flex;flex-direction:column;justify-content:flex-start;flex-shrink:0;transform:none" data-framer-component-type="RichTextContainer">
+                            <div class="framer-1f2z599" style="transform:none" data-framer-component-type="RichTextContainer">
                                 <p style="--font-selector:R0Y7RnJlZG9rYS03MDA=;--framer-font-family:&quot;Fredoka&quot;, &quot;Fredoka Placeholder&quot;, sans-serif;--framer-font-size:35px;--framer-font-weight:700;--framer-text-color:rgb(0, 82, 254)" class="framer-text">TWITTER</p>
                             </div>
                         </a>
                         <!--/$-->
                     </div>
                 </div>
-                <div class="framer-1l21x6t" style="outline:none;display:flex;flex-direction:column;justify-content:flex-start;flex-shrink:0;transform:translateY(-50%)" data-framer-component-type="RichTextContainer">
+                <div class="framer-1l21x6t" style="transform:translateY(-50%)" data-framer-component-type="RichTextContainer">
                     <p style="--framer-text-color:rgb(255, 255, 255)" class="framer-text">f</p>
                 </div>
                 <div class="framer-1pnhxww-container">
-                    <!--$--><video src="https://framerusercontent.com/assets/mDdBy3unj4Qu2QfFUfMddo0wh4.mov" loop preload="none" muted playsinline style="cursor:auto;width:100%;height:100%;border-radius:50px;display:block;object-fit:cover;background-color:rgba(0, 0, 0, 0);object-position:50% 50%"></video>
+                    <!--$--><video src="https://framerusercontent.com/assets/JnrFcvr3BuxiuUe3E65FDKE2dP0.mov" loop preload="none" muted playsinline style="cursor:auto;width:100%;height:100%;border-radius:50px;display:block;object-fit:cover;background-color:rgba(0, 0, 0, 0);object-position:50% 50%"></video>
                     <!--/$-->
                 </div>
                 <div class="framer-jwv0wc"></div>
@@ -2720,11 +2769,11 @@
                 <div class="framer-d0pna6"></div>
             </div>
             <div class="framer-x9nuds" data-border="true">
-                <div class="framer-1i8ndcf" style="outline:none;display:flex;flex-direction:column;justify-content:flex-start;flex-shrink:0;transform:translateY(-50%)" data-framer-component-type="RichTextContainer">
+                <div class="framer-1i8ndcf" style="transform:translateY(-50%)" data-framer-component-type="RichTextContainer">
                     <div style="--font-selector:R0Y7RnJlZG9rYS01MDA=;--framer-font-family:&quot;Fredoka&quot;, &quot;Fredoka Placeholder&quot;, sans-serif;--framer-font-size:32px;--framer-font-weight:500;--framer-letter-spacing:-0.02em;--framer-line-height:1.6em;--framer-text-color:rgb(255, 255, 255)"
                         class="framer-text"><span style="display:inline-block;opacity:0.001;transform:translateX(0px) translateY(10px) scale(1) rotate(0deg) skewX(0deg) skewY(0deg)">Imagine</span> <span style="display:inline-block;opacity:0.001;transform:translateX(0px) translateY(10px) scale(1) rotate(0deg) skewX(0deg) skewY(0deg)">a</span>                        <span style="display:inline-block;opacity:0.001;transform:translateX(0px) translateY(10px) scale(1) rotate(0deg) skewX(0deg) skewY(0deg)">blockchain</span> <span style="display:inline-block;opacity:0.001;transform:translateX(0px) translateY(10px) scale(1) rotate(0deg) skewX(0deg) skewY(0deg)">cryptography</span>                        <span style="display:inline-block;opacity:0.001;transform:translateX(0px) translateY(10px) scale(1) rotate(0deg) skewX(0deg) skewY(0deg)">token</span> <span style="display:inline-block;opacity:0.001;transform:translateX(0px) translateY(10px) scale(1) rotate(0deg) skewX(0deg) skewY(0deg)">coin</span>                        <span style="display:inline-block;opacity:0.001;transform:translateX(0px) translateY(10px) scale(1) rotate(0deg) skewX(0deg) skewY(0deg)">powerful</span> <span style="display:inline-block;opacity:0.001;transform:translateX(0px) translateY(10px) scale(1) rotate(0deg) skewX(0deg) skewY(0deg)">enough</span>                        <span style="display:inline-block;opacity:0.001;transform:translateX(0px) translateY(10px) scale(1) rotate(0deg) skewX(0deg) skewY(0deg)">to</span> <span style="display:inline-block;opacity:0.001;transform:translateX(0px) translateY(10px) scale(1) rotate(0deg) skewX(0deg) skewY(0deg)">flip</span>                        <span style="display:inline-block;opacity:0.001;transform:translateX(0px) translateY(10px) scale(1) rotate(0deg) skewX(0deg) skewY(0deg)">the</span> <span style="display:inline-block;opacity:0.001;transform:translateX(0px) translateY(10px) scale(1) rotate(0deg) skewX(0deg) skewY(0deg)">S&amp;P</span>                        <span style="display:inline-block;opacity:0.001;transform:translateX(0px) translateY(10px) scale(1) rotate(0deg) skewX(0deg) skewY(0deg)">500</span> <span style="display:inline-block;opacity:0.001;transform:translateX(0px) translateY(10px) scale(1) rotate(0deg) skewX(0deg) skewY(0deg)">to</span>                        <span style="display:inline-block;opacity:0.001;transform:translateX(0px) translateY(10px) scale(1) rotate(0deg) skewX(0deg) skewY(0deg)">reach</span> <span style="display:inline-block;opacity:0.001;transform:translateX(0px) translateY(10px) scale(1) rotate(0deg) skewX(0deg) skewY(0deg)">a</span>                        <span style="display:inline-block;opacity:0.001;transform:translateX(0px) translateY(10px) scale(1) rotate(0deg) skewX(0deg) skewY(0deg)">market</span> <span style="display:inline-block;opacity:0.001;transform:translateX(0px) translateY(10px) scale(1) rotate(0deg) skewX(0deg) skewY(0deg)">cap</span>                        <span style="display:inline-block;opacity:0.001;transform:translateX(0px) translateY(10px) scale(1) rotate(0deg) skewX(0deg) skewY(0deg)">of</span> <span style="display:inline-block;opacity:0.001;transform:translateX(0px) translateY(10px) scale(1) rotate(0deg) skewX(0deg) skewY(0deg)">$500</span>                        <span style="display:inline-block;opacity:0.001;transform:translateX(0px) translateY(10px) scale(1) rotate(0deg) skewX(0deg) skewY(0deg)">trillion</span> <span style="display:inline-block;opacity:0.001;transform:translateX(0px) translateY(10px) scale(1) rotate(0deg) skewX(0deg) skewY(0deg)">dollars.</span>                        <span style="display:inline-block;opacity:0.001;transform:translateX(0px) translateY(10px) scale(1) rotate(0deg) skewX(0deg) skewY(0deg)">Powered</span> <span style="display:inline-block;opacity:0.001;transform:translateX(0px) translateY(10px) scale(1) rotate(0deg) skewX(0deg) skewY(0deg)">by</span>                        <span style="display:inline-block;opacity:0.001;transform:translateX(0px) translateY(10px) scale(1) rotate(0deg) skewX(0deg) skewY(0deg)">hyper-computer</span> <span style="display:inline-block;opacity:0.001;transform:translateX(0px) translateY(10px) scale(1) rotate(0deg) skewX(0deg) skewY(0deg)">telecommunication</span>                        <span style="display:inline-block;opacity:0.001;transform:translateX(0px) translateY(10px) scale(1) rotate(0deg) skewX(0deg) skewY(0deg)">science,</span> <span style="display:inline-block;opacity:0.001;transform:translateX(0px) translateY(10px) scale(1) rotate(0deg) skewX(0deg) skewY(0deg)">Base</span>                        <span style="display:inline-block;opacity:0.001;transform:translateX(0px) translateY(10px) scale(1) rotate(0deg) skewX(0deg) skewY(0deg)">blockchain</span> <span style="display:inline-block;opacity:0.001;transform:translateX(0px) translateY(10px) scale(1) rotate(0deg) skewX(0deg) skewY(0deg)">technologies,</span>                        <span style="display:inline-block;opacity:0.001;transform:translateX(0px) translateY(10px) scale(1) rotate(0deg) skewX(0deg) skewY(0deg)">and</span> <span style="display:inline-block;opacity:0.001;transform:translateX(0px) translateY(10px) scale(1) rotate(0deg) skewX(0deg) skewY(0deg)">advanced</span>                        <span style="display:inline-block;opacity:0.001;transform:translateX(0px) translateY(10px) scale(1) rotate(0deg) skewX(0deg) skewY(0deg)">algorithmic</span> <span style="display:inline-block;opacity:0.001;transform:translateX(0px) translateY(10px) scale(1) rotate(0deg) skewX(0deg) skewY(0deg)">mathematics,</span>                        <span style="display:inline-block;opacity:0.001;transform:translateX(0px) translateY(10px) scale(1) rotate(0deg) skewX(0deg) skewY(0deg)">that's</span> <span style="display:inline-block;opacity:0.001;transform:translateX(0px) translateY(10px) scale(1) rotate(0deg) skewX(0deg) skewY(0deg)">exactly</span>                        <span style="display:inline-block;opacity:0.001;transform:translateX(0px) translateY(10px) scale(1) rotate(0deg) skewX(0deg) skewY(0deg)">what</span> <span style="display:inline-block;opacity:0.001;transform:translateX(0px) translateY(10px) scale(1) rotate(0deg) skewX(0deg) skewY(0deg)">BASE500</span>                        <span style="display:inline-block;opacity:0.001;transform:translateX(0px) translateY(10px) scale(1) rotate(0deg) skewX(0deg) skewY(0deg)"></span> <span style="display:inline-block;opacity:0.001;transform:translateX(0px) translateY(10px) scale(1) rotate(0deg) skewX(0deg) skewY(0deg)">aims</span>                        <span style="display:inline-block;opacity:0.001;transform:translateX(0px) translateY(10px) scale(1) rotate(0deg) skewX(0deg) skewY(0deg)">to</span> <span style="display:inline-block;opacity:0.001;transform:translateX(0px) translateY(10px) scale(1) rotate(0deg) skewX(0deg) skewY(0deg)">achieve.</span></div>
                 </div>
-                <div class="framer-si4xcs" style="outline:none;display:flex;flex-direction:column;justify-content:flex-start;flex-shrink:0;transform:translateX(-50%)" data-framer-component-type="RichTextContainer">
+                <div class="framer-si4xcs" style="transform:translateX(-50%)" data-framer-component-type="RichTextContainer">
                     <h1 style="--font-selector:Q1VTVE9NO0NvaW5iYXNlIERpc3BsYXkgQm9sZA==;--framer-font-family:&quot;Coinbase Display Bold&quot;, &quot;Coinbase Display Bold Placeholder&quot;, sans-serif;--framer-font-size:82px;--framer-letter-spacing:-0.04em;--framer-line-height:1em;--framer-text-color:rgb(255, 255, 255)"
                         class="framer-text">BASE 500</h1>
                 </div>
@@ -2872,7 +2921,7 @@
             var G = (e, t, r = 10) => {
                 let o = "",
                     s = Math.max(Math.round(t / r), 2);
-                for (let n = 0; n < s; n++) o += e(n / (s - 1)) + ", ";
+                for (let n = 0; n < s; n++) o += Math.round(e(n / (s - 1)) * 1e4) / 1e4 + ", ";
                 return `linear(${o.substring(0,o.length-2)})`
             };
 
@@ -3051,31 +3100,31 @@
                     T = v(Math.sqrt(a / p)),
                     B = Math.abs(h) < 5;
                 o || (o = B ? l.restSpeed.granular : l.restSpeed.default), s || (s = B ? l.restDelta.granular : l.restDelta.default);
-                let S;
+                let M;
                 if (y < 1) {
                     let x = L(T, y);
-                    S = A => {
-                        let M = Math.exp(-y * T * A);
-                        return i - M * ((g + y * T * h) / x * Math.sin(x * A) + h * Math.cos(x * A))
+                    M = A => {
+                        let S = Math.exp(-y * T * A);
+                        return i - S * ((g + y * T * h) / x * Math.sin(x * A) + h * Math.cos(x * A))
                     }
-                } else if (y === 1) S = x => i - Math.exp(-T * x) * (h + (g + T * h) * x);
+                } else if (y === 1) M = x => i - Math.exp(-T * x) * (h + (g + T * h) * x);
                 else {
                     let x = T * Math.sqrt(y * y - 1);
-                    S = A => {
-                        let M = Math.exp(-y * T * A),
+                    M = A => {
+                        let S = Math.exp(-y * T * A),
                             z = Math.min(x * A, 300);
-                        return i - M * ((g + y * T * h) * Math.sinh(z) + x * h * Math.cosh(z)) / x
+                        return i - S * ((g + y * T * h) * Math.sinh(z) + x * h * Math.cosh(z)) / x
                     }
                 }
                 let V = {
                     calculatedDuration: d && c || null,
                     next: x => {
-                        let A = S(x);
+                        let A = M(x);
                         if (d) f.done = x >= c;
                         else {
-                            let M = x === 0 ? g : 0;
-                            y < 1 && (M = x === 0 ? w(g) : me(S, x, A));
-                            let z = Math.abs(M) <= o,
+                            let S = x === 0 ? g : 0;
+                            y < 1 && (S = x === 0 ? w(g) : me(M, x, A));
+                            let z = Math.abs(S) <= o,
                                 ke = Math.abs(i - A) <= s;
                             f.done = z && ke
                         }
@@ -3083,7 +3132,7 @@
                     },
                     toString: () => {
                         let x = Math.min($(V), 2e4),
-                            A = G(M => V.next(x * M).value, x, 30);
+                            A = G(S => V.next(x * S).value, x, 30);
                         return x + "ms " + A
                     },
                     toTransition: () => {}
@@ -3306,7 +3355,7 @@
             function I(e) {
                 return e * 1e3
             }
-            var Me = {
+            var Se = {
                     duration: .001
                 },
                 K = {
@@ -3363,7 +3412,7 @@
                         duration: f,
                         delay: r.delay
                     },
-                    p = s ? Me : m,
+                    p = s ? Se : m,
                     c = {};
                 for (let [d, g] of Object.entries(i)) ie(d) ? c[d] = se(g, a) : n[d] = {
                     keyframes: se(g, a),
@@ -3392,7 +3441,7 @@
                 let n = Fe(r);
                 if (!n) return;
                 let i = {},
-                    f = s ? Me : n,
+                    f = s ? Se : n,
                     a = {};
                 for (let p of ae(e, t)) {
                     let c = e[p] ? ? K[p],
@@ -3425,7 +3474,7 @@
                 } : e
             }
             var be = new Map,
-                Se = 10;
+                Me = 10;
 
             function Ze(e, t, r) {
                 let o = Ye(e, t, r),
@@ -3441,9 +3490,9 @@
                     },
                     a = [],
                     m = 0;
-                for (; !f.done && m < I(10);) f = i.next(m), a.push(f.value), m += Se;
+                for (; !f.done && m < I(10);) f = i.next(m), a.push(f.value), m += Me;
                 n = a;
-                let p = m - Se,
+                let p = m - Me,
                     u = {
                         keyframes: n,
                         duration: p,
@@ -3499,7 +3548,7 @@
                     if (!y) continue;
                     let h = {},
                         T = {};
-                    for (let [S, V] of Object.entries(y)) h[S] = V.keyframes, T[S] = V.options;
+                    for (let [M, V] of Object.entries(y)) h[M] = V.keyframes, T[M] = V.options;
                     let B = n ? `:not(.hidden-${n}) ` : "";
                     t(`${B}[${r}="${i}"]`, h, T)
                 }
@@ -3552,12 +3601,12 @@
     </script>
     <link rel="modulepreload" fetchpriority="low" href="https://framerusercontent.com/sites/2ULS8FNUD1Y0zMwL55UBqN/react.CeUnLYl0.mjs">
     <link rel="modulepreload" fetchpriority="low" href="https://framerusercontent.com/sites/2ULS8FNUD1Y0zMwL55UBqN/rolldown-runtime.C7b6j39t.mjs">
-    <link rel="modulepreload" fetchpriority="low" href="https://framerusercontent.com/sites/2ULS8FNUD1Y0zMwL55UBqN/framer.D3WEGyJ4.mjs">
-    <link rel="modulepreload" fetchpriority="low" href="https://framerusercontent.com/sites/2ULS8FNUD1Y0zMwL55UBqN/motion.t2UBqgaj.mjs">
-    <link rel="modulepreload" fetchpriority="low" href="https://framerusercontent.com/sites/2ULS8FNUD1Y0zMwL55UBqN/86jq1nSa-hJtgf0M78cfWUsTtATK3PmSL9KDNbp1Mk8.DcWmlThv.mjs">
-    <link rel="modulepreload" fetchpriority="low" href="https://framerusercontent.com/sites/2ULS8FNUD1Y0zMwL55UBqN/shared-lib.gMMEqnrY.mjs">
-    <link rel="modulepreload" fetchpriority="low" href="https://framerusercontent.com/sites/2ULS8FNUD1Y0zMwL55UBqN/script_main.CdyRmHGv.mjs">
-    <script type="module" async data-framer-bundle="main" fetchpriority="low" src="https://framerusercontent.com/sites/2ULS8FNUD1Y0zMwL55UBqN/script_main.CdyRmHGv.mjs"></script>
+    <link rel="modulepreload" fetchpriority="low" href="https://framerusercontent.com/sites/2ULS8FNUD1Y0zMwL55UBqN/framer.BZ3ZBF8a.mjs">
+    <link rel="modulepreload" fetchpriority="low" href="https://framerusercontent.com/sites/2ULS8FNUD1Y0zMwL55UBqN/motion.DNbmmJy4.mjs">
+    <link rel="modulepreload" fetchpriority="low" href="https://framerusercontent.com/sites/2ULS8FNUD1Y0zMwL55UBqN/eQcFfsICj9Dl8xG9EeCBeMynv3-HbYd8GfgWSFDN5gQ._O5CfwIi.mjs">
+    <link rel="modulepreload" fetchpriority="low" href="https://framerusercontent.com/sites/2ULS8FNUD1Y0zMwL55UBqN/shared-lib.EGVdoJcZ.mjs">
+    <link rel="modulepreload" fetchpriority="low" href="https://framerusercontent.com/sites/2ULS8FNUD1Y0zMwL55UBqN/script_main.C8FL521d.mjs">
+    <script type="module" async data-framer-bundle="main" fetchpriority="low" src="https://framerusercontent.com/sites/2ULS8FNUD1Y0zMwL55UBqN/script_main.C8FL521d.mjs"></script>
     <div id="svg-templates" style="position: absolute; overflow: hidden; bottom: 0; left: 0; width: 0; height: 0; z-index: 0; contain: strict" aria-hidden="true">
         <svg width="16" height="16" id="svg-1821015891_246"><path d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865l8.875 11.633Z"/></svg>
     </div>
